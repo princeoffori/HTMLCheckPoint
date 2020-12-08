@@ -1,6 +1,7 @@
 .nav{
     background-color: #560027;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .nav a{
@@ -29,6 +30,8 @@
     float: right;
 }
 
+/* ------------------------------------------------------ */
+
 .loginContent{
     margin: auto;
     width:40%;
@@ -52,3 +55,21 @@
     height: 30px;
 }
 
+/* --------------------------------------------------------------- */
+
+.sectioncolumn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.divcolumns{
+    width: auto;
+}
+.image{
+    margin: 5px;
+    display: flex;
+    width: inherit;
+    height: 700px;
+    border-radius: 10px;
+}
